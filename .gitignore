@@ -1,0 +1,6 @@
+blog/config/*
+blog/!config/default.*
+npm-debug.log
+node_modules
+blog/coverage
+study
