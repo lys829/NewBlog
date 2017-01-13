@@ -22,7 +22,7 @@ router.post('/', checkNotLogin, function(req, res, next) {
         .then( (user)=> {
             if(!user) {
                 req.flash('error', '用户不存在');
-                // return res.redirect('back');
+                return res.redirect('back');
             }
 
             //检测密码是否匹配
