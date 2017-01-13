@@ -50,6 +50,8 @@ pm2
     * 删除留言 `GET /posts/:postId/comment/:commentId/remove`
 
 ### 常用命令
+* netstat -lanp|grep 80
+* NODE_ENV=production node index
 * supervisor --harmony index
 * `pm2 start/stop` 启动/停止程序
 * `pm2 reload/restart [id|name]` 重启程序

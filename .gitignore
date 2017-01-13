@@ -1,7 +1,7 @@
-blog/config/*
-blog/!config/default.*
+config/*
+!config/default.*
 npm-debug.log
 node_modules
-blog/coverage
+coverage
 study
 .idea/*

@@ -14,7 +14,7 @@ var flash = require('connect-flash');
 var config = require('config-lite');
 
 var routes = require('./routes');
-var pkg = require('../package.json');
+var pkg = require('./package.json');
 var winston = require('winston');
 var expressWinston = require('express-winston');
 
